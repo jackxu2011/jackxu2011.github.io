@@ -1,14 +1,14 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             心决
+email:             jack@xuling.me
+description:       用心解决问题，留点足迹
+author:            许灵
+baseurl:           ""
+url:               "http://jackxu2011.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+# twitter_username:  SBootstrap
+github_username:   jackxu2011
+# facebook_username: StartBootstrap
 
 # Build settings
 markdown:          kramdown
@@ -17,3 +17,14 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+# Navigation links
+nav:
+  - url: '/'
+    label: '主页'
+  - url: '/about'
+    label: '关于'
+  - url: '/posts'
+    label: ' 博文'
+  - url: '/contact'
+    label: '联系我'
